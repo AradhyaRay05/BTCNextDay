@@ -14,7 +14,7 @@ st.title('Bitcoin Price Prediction')
 
 st.write("Enter the current day's closing price to get a prediction for the next day.")
 
-current_price = st.slider('Current Closing Price:', min_value=0.0, max_value=100000.0, value=30000.0, format="%.2f")
+current_price = st.slider('Current Closing Price:', min_value=0.0, max_value=113832.0, value=60000.0, format="%.2f")
 
 if st.button('Predict'):
     if current_price:
@@ -24,3 +24,4 @@ if st.button('Predict'):
     else:
 
         st.warning('Please enter a current closing price.')
+
