@@ -1,4 +1,8 @@
-# Bitcoin-Price-Prediction
+# 🪙 BTCNextDay  
+**Predict Tomorrow's Bitcoin Price**
+
+---
+
 
 
 ## 📬 Contact
