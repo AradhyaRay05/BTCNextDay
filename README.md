@@ -6,7 +6,14 @@
 BTCNextDay is a machine learning-based application that predicts the **next day's closing price of Bitcoin** using current market data.  
 This helps investors, traders, and enthusiasts to gain insights into Bitcoin trends with a simple, interactive, and explainable tool.
 
+---
 
+## 📄 Project Overview  
+Due to the highly volatile nature of Bitcoin, predicting its price is a challenging task.  
+This project uses historical closing price data to train multiple machine learning models and selects the best-performing one (CatBoost Regressor) for deployment.  
+It features a **Streamlit-powered web app** for real-time price prediction.
+
+---
 
 
 ## 📬 Contact
