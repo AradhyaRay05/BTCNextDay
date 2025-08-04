@@ -1,5 +1,4 @@
-# 🪙 BTCNextDay  
-**Predict Tomorrow's Bitcoin Price**
+# 🪙 BTCNextDay - Predict Tomorrow's Bitcoin Price
 
 ---
 
