@@ -15,6 +15,47 @@ It features a **Streamlit-powered web app** for real-time price prediction.
 
 ---
 
+## ⚙️ Project Workflow  
+
+### 🔹 1. Data Preprocessing
+- Loaded historical Bitcoin price data from CSV
+- Selected `Close` price column as the main feature
+- Created shifted target column (`Next Day Price`)
+- Removed NaN rows due to shifting
+- Split data into training and testing sets (80-20 split)
+
+### 🔹 2. Model Building
+Tested multiple regression models:
+- **Linear Regression**
+- **Support Vector Regression (SVR)**
+- **Random Forest Regressor**
+- **XGBoost Regressor**
+- **LightGBM Regressor**
+- **CatBoost Regressor** ✅ *(Best performer)*
+
+Final Model:
+- **Model Used**: `CatBoostRegressor(iterations=1000, learning_rate=0.1, depth=6)`
+- **Training Set R² Score**: ~0.998  
+- **Test Set R² Score**: ~0.985  
+- Saved using `joblib` for future inference
+
+### 🔹 3. Evaluation Metrics
+- **Mean Absolute Error (MAE)**: 79.81  
+- **Mean Squared Error (MSE)**: 15351.32  
+- **R² Score**: 0.9856 *(on test data)*
+
+### 🔹 4. Deployment
+- Developed frontend with **Streamlit**
+- User inputs current closing price
+- Model returns predicted next-day closing price
+- Basic error handling for missing model file
+- Fast, lightweight deployment — can be hosted on:
+  - Streamlit Cloud
+  - Hugging Face Spaces
+  - Render / Heroku *(with minor adjustments)*
+
+---
+
 
 ## 📬 Contact
 
