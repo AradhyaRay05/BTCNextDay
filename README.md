@@ -55,6 +55,21 @@ Final Model:
 
 ---
 
+## 🧰 Tech Stack  
+
+- **Frontend/UI**: Streamlit  
+- **Backend & Logic**: Python  
+
+### 🧪 Libraries Used:
+- `pandas`, `numpy` – Data processing  
+- `scikit-learn` – ML models and preprocessing utilities  
+- `catboost` – Gradient boosting model used for final prediction  
+- `joblib` – Model saving and loading  
+- `matplotlib` – Data visualization during EDA  
+- `streamlit` – Web interface for deployment  
+
+---
+
 
 
 ## 📬 Contact
