@@ -67,8 +67,10 @@ Final Model:
 - `joblib` – Model saving and loading  
 - `matplotlib` – Data visualization during EDA  
 - `streamlit` – Web interface for deployment  
-
 ---
+
+
+
 ## 🗂️ Project Structure  
 
 ```bash
@@ -107,6 +109,10 @@ BTCNextDay/
 
 ---
 
+📄 License
+This project is licensed under the MIT License(;xs).
+
+---
 
 ## 📬 Contact
 
