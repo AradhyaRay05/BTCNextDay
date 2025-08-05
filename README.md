@@ -35,8 +35,7 @@ Tested multiple regression models:
 
 Final Model:
 - **Model Used**: `CatBoostRegressor(iterations=1000, learning_rate=0.1, depth=6)`
-- **Training Set R² Score**: ~0.998  
-- **Test Set R² Score**: ~0.985  
+- **Test Set R² Score**: ~0.97.99  
 - Saved using `joblib` for future inference
 
 ### 🔹 3. Evaluation Metrics
