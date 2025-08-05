@@ -69,7 +69,43 @@ Final Model:
 - `streamlit` – Web interface for deployment  
 
 ---
+## 🗂️ Project Structure  
 
+```bash
+BTCNextDay/
+│
+├── app.py                           # Streamlit interface
+├── model.pkl                        # Trained CatBoost model
+├── Bitcoin_Price_Prediction.ipynb  # Jupyter notebook for preprocessing + model training
+├── requirements.txt                 # Dependencies
+└── README.md                        # Project documentation
+```
+
+
+---
+
+## ✨ Features  
+
+- 🔮 **Next-Day Bitcoin Price Prediction**  
+- 🧠 **Tested Multiple ML Models (Linear, RF, CatBoost)**  
+- 📊 **Evaluation Metrics with High Accuracy**  
+- 💡 **Single Input – Clean UI**  
+- 💾 **Trained Model Saved and Loaded with Joblib**  
+- 🛑 **Error Handling for Missing Files**  
+- 🌐 **Ready for Web Deployment via Streamlit**
+
+---
+
+## 🔮 Future Enhancements
+
+- Add more features: open, high, low, volume, technical indicators  
+- Fetch real-time Bitcoin data via APIs  
+- Add visualizations and price trend charts  
+- Store user inputs and predictions for logging  
+- Deploy full-stack with user authentication  
+- Add daily alerts or notifications with predicted price
+
+---
 
 
 ## 📬 Contact
