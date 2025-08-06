@@ -82,8 +82,8 @@ BTCNextDay/
 ├── app.py                               # Streamlit interface
 ├── model.pkl                            # Trained CatBoost model
 ├── Bitcoin_Price_Prediction.ipynb       # Jupyter notebook for preprocessing + model training
-├── requirements.txt                     # Dependencies
-└── 
+├── 
+└── requirements.txt                     # Dependencies
 ```
 
 
