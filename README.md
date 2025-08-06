@@ -80,9 +80,9 @@ BTCNextDay/
 ├── .gitignore                           # Prevents Git from tracking unnecessary files
 ├── LICENSE                               # Allows reuse, with attribution, no warranty
 ├── app.py                               # Streamlit interface
-├── model.pkl                            # Trained CatBoost model
-├── Bitcoin_Price_Prediction.ipynb       # Jupyter notebook for preprocessing + model training
 ├── 
+├── Bitcoin_Price_Prediction.ipynb       # Jupyter notebook for preprocessing + model training
+├── model.pkl                            # Trained CatBoost model
 └── requirements.txt                     # Dependencies
 ```
 
