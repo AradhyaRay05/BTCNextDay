@@ -78,11 +78,12 @@ BTCNextDay/
 ├── Dataset/                             # Folder containing the dataset
 │   └── Crop_recommendation.csv          # Main dataset used for training the model
 ├── .gitignore                           # Prevents Git from tracking unnecessary files
+├── LICENSE                               # Allows reuse, with attribution, no warranty
 ├── app.py                               # Streamlit interface
 ├── model.pkl                            # Trained CatBoost model
 ├── Bitcoin_Price_Prediction.ipynb       # Jupyter notebook for preprocessing + model training
 ├── requirements.txt                     # Dependencies
-└── README.md                            # Project documentation
+└── 
 ```
 
 
