@@ -48,10 +48,6 @@ Final Model:
 - User inputs current closing price
 - Model returns predicted next-day closing price
 - Basic error handling for missing model file
-- Fast, lightweight deployment — can be hosted on:
-  - Streamlit Cloud
-  - Hugging Face Spaces
-  - Render / Heroku *(with minor adjustments)*
 
 ---
 
