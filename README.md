@@ -1,7 +1,5 @@
 # 🪙 BTCNextDay - Predict Tomorrow's Bitcoin Price
 
----
-
 ## 🚀 Project Goal  
 BTCNextDay is a machine learning-based application that predicts the **next day's closing price of Bitcoin** using current market data.  
 This helps investors, traders, and enthusiasts to gain insights into Bitcoin trends with a simple, interactive, and explainable tool.
